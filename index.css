@@ -307,3 +307,49 @@ pre{
         text-align: center;
     }
 }
+
+/* navigation baar  */
+
+@media (max-width: 768px) {
+    #navigation {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .nav-logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-search {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .panel {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .panel-ops {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .panel-ops p {
+        margin: 5px 10px;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+    }
+}
