@@ -266,3 +266,44 @@ footer-3{
 pre{
     margin-top: 10px;
 }
+
+/* media quary */
+
+
+@media only screen and (max-width: 768px) {
+    #navigation, .panel, .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-search {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .shop-section {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .panel-ops {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-section {
+        height: auto;
+        background-position: center;
+    }
+
+    .hero-msg {
+        width: 95%;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
