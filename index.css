@@ -269,7 +269,7 @@ pre{
 
 /* media quary */
 
-
+/*
 @media only screen and (max-width: 768px) {
     #navigation, .panel, .shop-section {
         flex-direction: column;
@@ -280,7 +280,7 @@ pre{
         width: 90%;
         margin-top: 10px;
     }
-
+ 
     .shop-section {
         flex-wrap: wrap;
     }
@@ -307,4 +307,4 @@ pre{
         text-align: center;
     }
 }
-
+ */
