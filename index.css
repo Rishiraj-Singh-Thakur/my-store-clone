@@ -311,121 +311,45 @@ pre{
 /* navigation baar  */
 
 @media (max-width: 768px) {
-
-    /* Navbar */
     #navigation {
         flex-direction: column;
-        align-items: flex-start;
         height: auto;
-        padding: 10px;
+        padding: 10px 0;
     }
 
     .nav-logo {
-        margin: 0 auto 10px;
-    }
-
-    .add-div,
-    .nav-sign-in,
-    .nav-cart,
-    .nav-person {
-        width: 100%;
-        margin: 5px 0;
-        text-align: center;
+        margin-bottom: 10px;
     }
 
     .nav-search {
-        width: 100%;
+        width: 90%;
         margin: 10px 0;
-        flex-wrap: wrap;
     }
 
-    .first-all-search {
-        width: 25%;
-        font-size: 0.8rem;
-    }
-
-    .input-search-nav {
-        width: 60%;
-        font-size: 0.9rem;
-    }
-
-    .search-icon-nav {
-        width: 15%;
-    }
-
-    /* Panel */
     .panel {
         flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
         height: auto;
+        padding: 10px 0;
     }
 
     .panel-ops {
         width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .panel-ops p {
-        margin: 5px 0;
-        font-size: 0.9rem;
-    }
-
-    /* Hero Section */
-    .hero-section {
-        height: 200px;
-        background-size: cover;
-        align-items: center;
-        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         text-align: center;
     }
 
-    .hero-msg {
-        width: 95%;
-        font-size: 0.75rem;
-        margin: 10px 0;
-        height: auto;
-        padding: 5px;
+    .panel-ops p {
+        margin: 5px 10px;
     }
 
-    /* Shop Section */
     .shop-section {
         flex-direction: column;
         align-items: center;
-        background-color: #f3f3f3;
     }
 
     .box {
         width: 90%;
-        margin-bottom: 20px;
-    }
-
-    /* Footer */
-    footer {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .foot-panel-1 {
-        height: auto;
-        padding: 10px 0;
-        text-align: center;
-    }
-
-    .foot-panel-1 button {
-        width: 80%;
-        margin-top: 5px;
-    }
-
-    footer-2,
-    footer-3 {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .foot-panel-Logo-2 {
-        margin: 10px 0;
     }
 }
